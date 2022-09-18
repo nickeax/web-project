@@ -1,3 +1,5 @@
+using web_project.Modules.Logging;
+
 namespace web_project
 {
   public class ProjectManager

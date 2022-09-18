@@ -1,4 +1,4 @@
-namespace web_project
+namespace web_project.Modules.Logging
 {
   public class Message : IFeedback
   {
