@@ -26,10 +26,22 @@ NESTED FOLDER CREATION (from command line arguments)
 USE CASES
 I wish to create a simple Web project that consists of an index.html, index.css, index.js and a .gitignore file. The folder structure will be as follows:
 index.html
-.gitignore
-[src][js]
-  index.js
-[src][css]
-  index.css
-[models]
-[modules]
+
+CONSTRUCTING PROJECTS
+[WebProject] : [Project]
+- The [WebProject] will be the default project type and only one implemented to begin with.
+- A WebProject will have consist of [index.html], [index.css], [index.js] and [.gitignore]
+- The directory structure will be:
+  ROOT
+  - index.html
+  - .gitignore
+    SRC
+  - JS
+  - - index.js
+  - CSS
+  - - index.js
+
+[WebProject]
+[HTMLFile]
+ - Links <- List of string
+ - Style <- List of string

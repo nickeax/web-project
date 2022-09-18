@@ -15,7 +15,7 @@ public class Configuration
       }
       catch (System.Exception ex)
       {
-        throw (ex);
+        throw new Exception(ex.Message);
       }
 
     BuildConfigs(fileText);
