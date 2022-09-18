@@ -1,4 +1,4 @@
-// See https://aka.ms/new-console-template for more information
+namespace web_project.Modules.Logging.Interfaces;
 public interface IFeedback
 {
   public void Display();
