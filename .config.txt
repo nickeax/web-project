@@ -1,0 +1,3 @@
+BasePath|~/Documents/repos/
+NewFolder1|modules
+NewFolder2|models
