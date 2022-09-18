@@ -1,3 +1,5 @@
+using web_project.Modules.Logging.Interfaces;
+
 namespace web_project.Modules.Logging;
 public class Message : IFeedback
 {
