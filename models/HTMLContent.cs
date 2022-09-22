@@ -2,8 +2,7 @@ namespace web_project.models
 {
   public class HTMLContent
   {
-    public string Content { get; set; } = @"
-<!DOCTYPE html>
+    public string Content { get; set; } = @"<!DOCTYPE html>
 <html lang='en'>
   <head>
     <meta charset='UTF-8' />

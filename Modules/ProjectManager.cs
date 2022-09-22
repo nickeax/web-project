@@ -6,6 +6,7 @@ namespace web_project;
 public class ProjectManager
 {
   private string _configFilename = ".config.txt";
+  #region CTOR
   public ProjectManager(string[] commandLine, Message infoLog, Message warningLog, Message errorLog)
   {
     Config = new Configuration(_configFilename);
@@ -22,7 +23,7 @@ public class ProjectManager
       ErrorLog.LogMessage(ex.Message);
     }
   }
-
+  #endregion
   #region props
   public string[] CommandLine { get; } = { };
   public string BaseDirectory { get; set; } = string.Empty;
